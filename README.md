@@ -1,4 +1,4 @@
-# TestAutomation_RAG-LLM
+# TestAutomation_RAG-LLM  
 # Introduction to AI and LLM - How they work
 
 **AI**: creating systems capable of performing tasks requiring human intelligence such as, understanding languages,
@@ -25,5 +25,19 @@
 3. **Hallucination** : LLMs can generate fabricated or inaccurate information.
 
 ### RAG Architecture :
-![img.png](img.png)
+![img_2.png](images/img_2.png)
+
+### Why not just code to directly access docs instead of LLM
+![img_1.png](images/img_1.png)
+
+### Should I use LLM Training Data if information is Missing?
+![img_3.png](images/img_3.png)
+
+## Consider a hybrid solution:
+1. Primary Source: Attempt retrieval from the document database
+2. Fallback: Use the LLM for queries flagged as low-risk (general knowledge). Tag responses as 
+   "based on pre-trained knowledge' when using LLM"
+
+
+
 
